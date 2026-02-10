@@ -1,0 +1,14 @@
+{
+  "name": "time-manager-backend-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node src/server.js",
+    "check": "node -e \"require('./src/server'); console.log('backend-ok')\""
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
